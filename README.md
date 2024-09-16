@@ -18,7 +18,7 @@ LicenseType: 		The category of the business license is barristers and solicitors
 IssueDate: 		  The date the permit was granted was entered into the database. 
 ExpiryDate: 		The specific date at the end of the licensed period. 
 Business Location: 	The place of the business, whether it is an address, street, city, town, or region where it has set up its operations. 
-Status: 			  The current license status could be either Active, Expired or so on). 
+Status: 			  The current license status could be either Active, Expired, or so on). 
 Renewal: 		    Specifies whether the license was renewed, was issued initially, or is valid permanently. 
 
 ### Methodology:
