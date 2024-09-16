@@ -35,8 +35,28 @@ First, the summary statistics for both datasets were generated to get an overvie
 
 
 The findings of the frequency analysis for the frequency of gaps in the 2023 and 2024 datasets show the following picture: From the license status perspective, it can be noted that the majority of the licenses concerned were ‘Issued’ in both the years 2023 and 2024 with a total of 478 and 394 respectively and only a few licenses were ‘Inactive’ in both the years that is 13 in 2023 and 10 in 2024 along with very little evidence of cancellations/ business closure. As for **business type**, all licenses were classified under ‘‘Office’’ in both years, implying that the dataset only contains licenses of office-type businesses. Related to ‘local areas,’ most of the licenses obtained in 2023 and 2024 are in Downtown, which consists of 356 licenses in 2023 and 333 licenses in 2024, and the rest of the licenses are scattered in the West End and Fairview. In this case, several areas of operation had only a few licenses, while some businesses belonged to the “Unknown” segment. This evaluation affirms that the central regions of Vancouver witnessed the most business license activity in the two years under consideration, and this is evident from the fact that there is petty variation between geographical and business diversification.
-Data Visualization
-Then, some visualizations were created to understand trends and distributions in the data better. First, a histogram was created to visualize the `FeePaid` column from the `df_2023` and ‘df_20234’ datasets. The histogram displays the distribution of the `FeePaid` values, while the boxplot visualizes the spread and potential outliers in the `FeePaid` data.
+
+#### Data Visualization
+Then, some visualizations were created to better understand trends and distributions in the data. First, a histogram was created to visualize the `FeePaid` column from the `df_2023` and ‘df_20234’ datasets. The histogram displays the distribution of the `FeePaid` values, while the boxplot visualizes the spread and potential outliers in the `FeePaid` data.
+
+![Time Series Graphs - Trends in Issuance of New Licenses (2023-2024)](https://github.com/user-attachments/assets/d5133472-fb83-4e54-b50e-455b0fcf9351)
+
+![Local Area Frequency 2024](https://github.com/user-attachments/assets/6f52697e-c740-4862-866d-30174731f791)
+
+![Local Area Frequency 2023](https://github.com/user-attachments/assets/42adecfd-02ba-4acd-9c50-259f22fe9bc4)
+
+![License Status Freuency 2024](https://github.com/user-attachments/assets/a7965224-47a6-4af3-ba99-7c1c5317806d)
+
+![License Status Freuency 2023](https://github.com/user-attachments/assets/ab201693-9676-44b8-a1e0-b9784dc8b6c7)
+
+![Fees Paid Trands](https://github.com/user-attachments/assets/b9a19bdb-7db9-41db-81c6-002a9e0ff9ae)
+
+![Fees Paid 2024](https://github.com/user-attachments/assets/4b25759e-d0e7-4922-a904-9252e06b4739)
+
+![Correlation Heatmap 2024](https://github.com/user-attachments/assets/684b0dbb-ccf8-4cac-a183-9e668762c67e)
+
+![Correlation Heatmap 2023](https://github.com/user-attachments/assets/7a0c7ee0-8291-4587-a82d-ab9498bb82c6)
+
 
 #### Survival Analysis For Business Segmentation
 Then, the survival analysis for the business license dataset was conducted, comparing survival rates by year, business type, and local area. The analysis demonstrates that the business's overall survival is high, at 96.96% in 2023 and 97.04% in 2024. All analyzed businesses belong to the “Office” sector, and their survival has been very similar in both years. An inspection of survival rates by local area shows little variability. From the 2023 perspectives, most zones like Fairview, Kitsilano, and Mount Pleasant have 100% survival rates; the West End is slightly less, with 95%, and the lowest survival rate of 50% is West Point Grey. In 2024, almost all areas depicted a 100% survival rate. Nonetheless, areas like Arbutus-Ridge depicted a significant percentage drop to 66.67%, and West End dropped to 92.31%. These findings suggest that most businesses continued to operate, with the overall survival rates only slightly dropping in some local areas.
