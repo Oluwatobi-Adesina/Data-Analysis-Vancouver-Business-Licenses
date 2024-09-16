@@ -23,6 +23,8 @@ Renewal: 		    Specifies whether the license was renewed, was issued initially, 
 
 ### Methodology:
 #### Data Collection and Preparation
+![Data Collection and Preparation drawio](https://github.com/user-attachments/assets/c9fa5e42-6308-4756-8265-014333a22341)
+
 After downloading the two datasets in Excel format (one for 2023 and one for 2024), they are loaded into Google Colab. Google Colab is the best suited for Exploratory Data Analysis because it allows for combining data analysis tools such as Pandas, NumPy, Matplotlib, and Seaborn. On the other hand, exploratory data analysis involves going through datasets to identify patterns and outliers and verifying assumptions through summarized statistics and graphical displays. After uploading the files, they were loaded into Pandas DataFramess.
 
 #### Data Cleaning
