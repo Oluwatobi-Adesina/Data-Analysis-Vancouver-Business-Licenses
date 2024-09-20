@@ -140,19 +140,29 @@ The findings of the frequency analysis for the frequency of gaps in the 2023 and
 
 Several visualizations were created to better understand trends and distributions in the data. First, a histogram was created to visualize the `FeePaid` column from the `df_2023` and ‘df_20234’ datasets. The histogram displays the distribution of the `FeePaid` values, while the boxplot visualizes the spread and potential outliers in the `FeePaid` data.
 
+##### The Time Series Graphs - Trends in Issuance of New Licenses (2023-2024)
+
 ![Time Series Graphs - Trends in Issuance of New Licenses (2023-2024)](https://github.com/user-attachments/assets/d5133472-fb83-4e54-b50e-455b0fcf9351)
+
+##### The Bar Charts Depicting the Frequency of the Local Area In the 2023 and 2024 Datasets.
 
 ![Local Area Frequency 2024](https://github.com/user-attachments/assets/6f52697e-c740-4862-866d-30174731f791)
 
 ![Local Area Frequency 2023](https://github.com/user-attachments/assets/42adecfd-02ba-4acd-9c50-259f22fe9bc4)
 
+##### The Bar Charts Depicting the Frequency of the License Status In the 2023 and 2024 Datasets.
+
 ![License Status Freuency 2024](https://github.com/user-attachments/assets/a7965224-47a6-4af3-ba99-7c1c5317806d)
 
 ![License Status Freuency 2023](https://github.com/user-attachments/assets/ab201693-9676-44b8-a1e0-b9784dc8b6c7)
 
+##### The Histogram and Box Plots for the 2023 and 2024 Datasets.
+
 ![Fees Paid Trands](https://github.com/user-attachments/assets/b9a19bdb-7db9-41db-81c6-002a9e0ff9ae)
 
 ![Fees Paid 2024](https://github.com/user-attachments/assets/4b25759e-d0e7-4922-a904-9252e06b4739)
+
+##### The Correlation Heatmaps For The 2023 and 2024 Datasets.
 
 ![Correlation Heatmap 2024](https://github.com/user-attachments/assets/684b0dbb-ccf8-4cac-a183-9e668762c67e)
 
